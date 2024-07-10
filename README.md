@@ -1,4 +1,4 @@
-# Audio Call App Project
+# Real Time Audio Call App
 ## Overview
 This project is an audio call application that allows multiple users to connect in an audio room and communicate with each other. It includes features such as mute/unmute functionality, text messaging, text-to-speech (TTS) service, and speech-to-text (STT) service. 
 
