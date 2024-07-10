@@ -23,7 +23,7 @@ Node.js installed \
 API keys from Cartesia and Google Cloud\
 Local Setup
 ### Clone the repository:
-git clone https://github.com/your-repo/audio-call-app.git 
+git clone https://github.com/ManiSankarNandiraju/assignment-realtime-audio-call-app.git
 ### Replace the placeholders with your API keys:
 Get the respective API keys from Cartesia and Google Cloud.\
 Replace the placeholders in the code with these API keys.
