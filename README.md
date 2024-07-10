@@ -27,6 +27,9 @@ git clone https://github.com/your-repo/audio-call-app.git
 ### Replace the placeholders with your API keys:
 Get the respective API keys from Cartesia and Google Cloud.\
 Replace the placeholders in the code with these API keys.
+### Navigate to the backend folder and install dependencies:
+cd backend\
+npm install
 ### Backend Setup:
 Replace the frontend endpoint with localhost:3000.
 ### Navigate to the frontend folder and install dependencies:
@@ -34,9 +37,6 @@ cd frontend\
 npm install
 ### Frontend Setup:
 In CallRoom.js, replace the server endpoint with localhost:5000.
-### Navigate to the backend folder and install dependencies:
-cd backend\
-npm install
 ## Run the Project:
 ### Start the backend server:
 npm start
@@ -53,11 +53,6 @@ Both parts are linked with respective endpoints.
 ## Usage
 ### Join Page
 Asks for the username and has a join button.
-### Lobby Page
-Displays a list of users who joined the lobby in boxes.\
-For the admin, there is a "Start Call" button.\
-For others, it shows "Call not yet started". Once the admin starts the call, others get the "Join Call" button.\
-The first user to join is the admin, indicated by "admin" next to their username with low opacity.
 ### CallRoom Page
 Users can talk with each other using audio communication.\
 Shows details of the admin and joined users along with individual mute and unmute buttons.
