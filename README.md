@@ -72,8 +72,8 @@ The project is mostly functional, but there are some issues with the audio strea
 I am willing to take some time to fix this issue, but I am concerned about missing the opportunity as there is no specific deadline.
 
 ## Conclusion
-Working on this project has been a great learning experience. Despite the current issues with WebRTC audio streaming, all other features are working as expected. I hope you understand the effort and time constraints involved.\
+Working on this project has been a great learning experience. Despite the current issues with WebRTC audio streaming, all other features are working as expected. I hope you understand the effort and time constraints involved.
 
-Feel free to reach out if you have any questions or need further clarification.\
+Feel free to reach out if you have any questions or need further clarification.
 
 Mani Sankar
