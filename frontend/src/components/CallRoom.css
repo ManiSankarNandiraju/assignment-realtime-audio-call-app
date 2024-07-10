@@ -1,0 +1,124 @@
+.call-room {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.callroom-heading {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+    text-shadow: 0 20px 24px rgba(0, 0, 0, 0.1);
+}
+
+.user-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.user-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px ;
+    border-radius: 10px;
+    width: 220px; /* Adjusted width */
+    height: 220px; /* Adjusted height */
+    margin: 24px; /* Added margin for spacing */
+    background-color:#A5C9CA;
+    box-sizing: border-box; /* Ensure padding and border are included in the width and height */
+    transition: box-shadow 0.3s ease; /* Smooth transition for glow effect */
+}
+
+.user-box.glowing {
+    box-shadow: 0 0 20px 5px #205295; /* Glowing effect */
+}
+
+.user-box img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+.user-box p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+.mute-symbol {
+    font-size: 14px;
+    color: red;
+}
+
+.control-buttons {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 50px;
+}
+
+.control-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    margin: 0 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.control-button.muted {
+    background-color: red;
+    color: white;
+}
+
+.control-button.unmuted {
+    background-color: green;
+    color: white;
+}
+
+.control-button.leave-button {
+    background-color: #76ABAE;
+    color: white;
+}
+
+
+.voice-level {
+    text-align: center;
+    margin-top: 10px;
+    position: fixed;
+    bottom: 20px;
+    width: 80%;
+}
+
+.voice-level progress {
+    width: 20%;
+    height: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.voice-level progress::-webkit-progress-bar {
+    background-color: #eee;
+}
+
+.voice-level progress::-webkit-progress-value {
+    background-color: #205295;
+    transition: width 0.1s ease;
+}
+
+.voice-level progress::-moz-progress-bar {
+    background-color: #205295;
+    transition: width 0.1s ease;
+}

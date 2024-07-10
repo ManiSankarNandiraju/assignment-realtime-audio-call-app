@@ -1,0 +1,78 @@
+body{
+    overflow: hidden;
+    background-color:#161A30;
+  }
+.Join-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 360px;
+    height: 240px;
+    margin-top: 20px;
+    margin-left: 668px;
+    background-color: #1e272e;
+    border-radius: 48px;
+    box-shadow: 0 20px 24px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Join-heading {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 36px;
+    font-weight: bold;
+    color: white;
+    margin-top: 180px;
+    text-shadow:0 20px 24px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  
+  .Join-form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .Join-label {
+    margin-bottom: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+  }
+  .Join-input {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+    border-radius: 16px;
+  }
+  
+  .Join-button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .Join-button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #ffa801;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    text-align: center;
+    border-radius: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .Join-button:hover {
+    background-color: #ffc048;
+  }
