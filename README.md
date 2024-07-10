@@ -27,12 +27,12 @@ git clone https://github.com/your-repo/audio-call-app.git
 ### Replace the placeholders with your API keys:
 Get the respective API keys from Cartesia and Google Cloud.\
 Replace the placeholders in the code with these API keys.
-### Frontend Setup:
+### Backend Setup:
 Replace the frontend endpoint with localhost:3000.
 ### Navigate to the frontend folder and install dependencies:
 cd frontend\
 npm install
-### Backend Setup:
+### Frontend Setup:
 In CallRoom.js, replace the server endpoint with localhost:5000.
 ### Navigate to the backend folder and install dependencies:
 cd backend\
