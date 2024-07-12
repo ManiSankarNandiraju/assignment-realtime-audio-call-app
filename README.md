@@ -1,6 +1,6 @@
 # Real Time Interactive Audio Bot App
 ## Overview
-This project is a real-time interactive audio bot where users can connect in one room and chat with a bot named Jarvis. This audio bot uses STT, TTS, and LLM to generate a natural audio response. Users can use text messages or audio recordings to get responses from the bot.\
+This project is a real-time interactive audio bot where users can connect in one room and chat with a bot named Jarvis. This audio bot uses STT, TTS, and LLM to generate a natural audio response. Users can use text messages or audio recordings to get responses from the bot.
 
 ## Name of the Bot
 Jarvis
