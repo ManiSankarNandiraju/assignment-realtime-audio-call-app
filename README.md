@@ -70,7 +70,7 @@ The project is well functional. All the features are working correctly.\
 Added ping as well to know the response time.
 
 ## Conclusion
-Working on this project has been a great learning experience. Despite the issues with a bit slow audio response , all other features are working as expected. I hope you understand the effort and time constraints involved.
+Working on this project has been a great learning experience. Despite the issue with a bit slow audio response , all other features are working as expected. I hope you understand the effort and time constraints involved.
 
 Feel free to reach out if you have any questions or need further clarification.
 
