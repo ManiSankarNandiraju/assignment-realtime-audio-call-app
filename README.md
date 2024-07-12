@@ -19,7 +19,7 @@ Mute/Unmute: Users can mute and unmute their microphones.\
 Text Messaging: Users can send text messages to bot.\
 Text-to-Speech (TTS): Sent text messages are converted to speech.\
 Speech-to-Text (STT): Recorded audio is converted to text \
-Large Language Model: To generate natural responses.\
+Large Language Model (LLM): To generate natural responses.\
 Join/Leave: Users can join or leave the meeting at any time.
 
 ## Setup and Installation
