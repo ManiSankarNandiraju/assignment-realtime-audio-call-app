@@ -166,3 +166,31 @@
     height: 30px;
 }
 
+.loading-message {
+    font-style: italic;
+    color: gray;
+    text-align: center;
+}
+
+.loading-message .dot {
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0%, 20% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+.response-time {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: gray;
+}
+.chat-messages.glowing {
+    box-shadow: 0 0 20px 5px #205295; /* Glowing effect */
+    transition: box-shadow 0.2s ease, border 0.2s ease;
+}

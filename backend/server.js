@@ -7,7 +7,7 @@ const app = express();
 const server = http.createServer(app);
 const io = socketIo(server, {
     cors: {
-        origin: "Frontend endpoint here",
+        origin: "Frontend Endpoint url",
         methods: ["GET", "POST"]
     }
 });
@@ -39,6 +39,10 @@ io.on('connection', (socket) => {
         );
         io.emit('user-muted', { username, isMuted });
         console.log('User mute status changed:', username, isMuted);
+    });
+
+    socket.on('voice-level', ({ username, voiceLevel }) => {
+        io.emit('voice-level', { username, voiceLevel });
     });
 
     socket.on('disconnect', (reason) => {

@@ -15,7 +15,7 @@ const Join = () => {
     return (
         <div >
         <div className="Join-heading">
-             <h1>Real Time Audio Stream</h1>
+             <h1>Real Time Interactive Audio Bot</h1>
         </div>
         <div className="Join-container">
         <div className="Join-form-group">
